@@ -1,0 +1,11 @@
+[project]
+name = "mcp-foundations"
+version = "0.1.0"
+description = "this is the first MCP server by Kevin"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "arxiv>=2.4.0",
+    "mcp>=1.25.0",
+    "filelock>=3.14.0",
+]
