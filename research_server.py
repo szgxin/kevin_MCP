@@ -191,4 +191,4 @@ def generate_search_prompt(topic: str, num_papers: int = 5) -> str:
 
 if __name__ == "__main__":
     # Initialize and run the server
-    mcp.run(host='0.0.0.0', port=8001,transport='streamable-http')
+    mcp.run(transport='streamable-http')
